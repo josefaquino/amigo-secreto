@@ -1,34 +1,22 @@
 const nameInput = document.getElementById('nameInput');
 const nameList = document.getElementById('nameList');
 const result = document.getElementById('result');
-let amigos = []; // Declaração do array para armazenar os nomes
+let amigos = []; // Array para armazenar os nomes
 
 function addName() {
-    // Capturar o valor do campo de entrada
     const name = nameInput.value.trim();
-    
-    // Validar a entrada
     if (name) {
-        // Atualizar o array de amigos
-        amigos.push(name);
-        
-        // Atualizar a lista HTML
-        updateNameList();
-        
-        // Limpar o campo de entrada
-        nameInput.value = '';
+        amigos.push(name); // Adiciona o nome ao array
+        updateNameList(); // Atualiza a lista exibida na página
+        nameInput.value = ''; // Limpa o campo de entrada
         nameInput.focus();
     } else {
-        // Exibir alerta se o campo estiver vazio
-        alert('Por favor, insira um nome.');
+        alert('Por favor, insira um nome válido.');
     }
 }
 
 function updateNameList() {
-    // Limpar a lista existente
-    nameList.innerHTML = '';
-
-    // Percorrer o array e adicionar cada nome como um elemento <li>
+    nameList.innerHTML = ''; // Limpa a lista existente
     for (let i = 0; i < amigos.length; i++) {
         const li = document.createElement('li');
         li.textContent = amigos[i];
