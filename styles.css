@@ -1,13 +1,16 @@
-html, body {
-    height: 100%;
-    margin: 0;
+/* Corpo da página */
+body {
+    font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    height: 100vh;
+    background: url("badge.png") no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
 }
 
+/* Contêiner principal */
 .container {
     text-align: center;
     background-color: #fff;
@@ -16,6 +19,7 @@ html, body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Campo de entrada */
 input {
     padding: 10px;
     margin: 10px;
@@ -23,20 +27,37 @@ input {
     border-radius: 4px;
 }
 
+/* Botões padrão */
 button {
     padding: 10px 15px;
     margin: 10px;
     border: none;
     border-radius: 4px;
     background-color: #007bff;
-    color: #fff;
+    color: white;
+    font-size: 16px;
     cursor: pointer;
 }
 
-button:hover {
-    background-color: #0056b3;
+/* Botão Sortear Amigo com imagem */
+button#drawButton {
+    background: url("play_circle_outline.png") no-repeat center;
+    background-size: contain;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    padding: 30px;
+    cursor: pointer;
 }
 
+/* Botão ao passar o mouse */
+button:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Lista de amigos */
 ul {
     list-style-type: none;
     padding: 0;
