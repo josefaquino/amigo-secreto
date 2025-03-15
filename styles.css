@@ -1,12 +1,25 @@
+<<<<<<< HEAD
+=======
+/* Corpo da página */
+>>>>>>> 5711bac920cbd98e067828b287025fc009e6c04e
 body {
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+<<<<<<< HEAD
     background-color: #f0f0f0;
 }
 
+=======
+    background: url("badge.png") no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+}
+
+/* Contêiner principal */
+>>>>>>> 5711bac920cbd98e067828b287025fc009e6c04e
 .container {
     text-align: center;
     background-color: #fff;
@@ -15,6 +28,10 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+<<<<<<< HEAD
+=======
+/* Campo de entrada */
+>>>>>>> 5711bac920cbd98e067828b287025fc009e6c04e
 input {
     padding: 10px;
     margin: 10px;
@@ -22,12 +39,17 @@ input {
     border-radius: 4px;
 }
 
+<<<<<<< HEAD
+=======
+/* Botões padrão */
+>>>>>>> 5711bac920cbd98e067828b287025fc009e6c04e
 button {
     padding: 10px 15px;
     margin: 10px;
     border: none;
     border-radius: 4px;
     background-color: #007bff;
+<<<<<<< HEAD
     color: #fff;
     cursor: pointer;
 }
@@ -36,6 +58,32 @@ button:hover {
     background-color: #0056b3;
 }
 
+=======
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Botão Sortear Amigo com imagem */
+button#drawButton {
+    background: url("play_circle_outline.png") no-repeat center;
+    background-size: contain;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    padding: 30px;
+    cursor: pointer;
+}
+
+/* Botão ao passar o mouse */
+button:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Lista de amigos */
+>>>>>>> 5711bac920cbd98e067828b287025fc009e6c04e
 ul {
     list-style-type: none;
     padding: 0;

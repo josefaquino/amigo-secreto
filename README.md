@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Amigo Secreto
 
 Este projeto é uma aplicação web simples para organizar um sorteio de amigo secreto. Os usuários podem inserir nomes de amigos e, em seguida, realizar um sorteio aleatório para determinar quem será o "amigo secreto".
@@ -49,3 +50,7 @@ Sinta-se à vontade para contribuir com melhorias para este projeto. Você pode 
 ---
 
 Espero que isso ajude a estruturar seu README.md! Se precisar de mais alguma
+=======
+# amigo-secreto
+Projeto JS, HTML e CSS no cursor OracleOne
+>>>>>>> 5711bac920cbd98e067828b287025fc009e6c04e
